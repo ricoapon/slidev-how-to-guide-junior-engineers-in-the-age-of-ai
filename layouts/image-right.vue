@@ -29,10 +29,10 @@ const style = computed(() => props.image
 
 <template>
   <div class="grid grid-cols-2 w-full h-full auto-rows-fr">
-    <div class="w-full h-full" :style="style" />
     <div class="slidev-layout default slidev-content-col" :class="props.class">
       <slot />
     </div>
+    <div class="w-full h-full" :style="style" />
   </div>
 </template>
 
