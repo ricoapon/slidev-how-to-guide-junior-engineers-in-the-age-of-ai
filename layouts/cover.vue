@@ -29,11 +29,4 @@ defineProps({ background: String })
   background-size: cover;
   background-position: center;
 }
-
-/* Making the h1 a bit bigger look nicer. */
-.slidev-layout.cover h1 {
-  font-size: 3.5rem;
-  line-height: 1.1;
-  margin: 0 0 0.5rem;
-}
 </style>
