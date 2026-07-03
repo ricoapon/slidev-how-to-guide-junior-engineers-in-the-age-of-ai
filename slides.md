@@ -256,6 +256,21 @@ even tested it. It probably doesn't even compile. Their work quality will increa
 -->
 
 ---
+layout: statement
+class: text-center
+---
+
+# Use their enthousiasm
+
+<div class="opacity-60 text-xl mt-4">Offload the boring stuff to AI.</div>
+
+<!--
+When you have a hobby project, there are certain parts you might enjoy, while you also need the boring stuff.
+For example: creating the backend with Java could be fun, but Thymeleaf frontend is boring. Just let AI do the
+boring stuff! It will make it far more enjoyable to create hobby projects this way.
+-->
+
+---
 layout: center
 class: text-center
 ---
