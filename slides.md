@@ -286,7 +286,17 @@ class: text-center
 # Questions?
 
 ---
+layout: center
+class: text-center
+---
 
-# QR code
+# Get the slides
 
-TODO: fill in QR code and link to this presentation when I published it.
+<div class="mx-auto w-max pt-5">
+  <div class="w-56 h-56 rounded" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
+</div>
+
+<!--
+Save the pasted QR image as public/qr.png, and replace "your-published-link"
+with the real URL once the slides are published.
+-->
