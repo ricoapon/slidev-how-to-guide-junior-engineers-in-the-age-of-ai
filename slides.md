@@ -30,7 +30,7 @@ image: /audience.jpg
 class: flex flex-col justify-center
 ---
 
-# Audience check
+# Audience
 
 <v-clicks>
 
@@ -73,7 +73,7 @@ image: /ai.jpg
 class: flex flex-col justify-center
 ---
 
-# My use of "AI"
+# My use of AI
 
 <div class="mb-10">LLMs and the tooling around them.</div>
 
@@ -188,7 +188,7 @@ class: text-center
 
 # You can learn something too
 
-<div class="opacity-60 text-xl mt-4">Go in with an open mind.</div>
+Go in with an open mind.
 
 <!--
 It is new technology and everyone does it differently. Go into it with an open mind. You might learn something from 
@@ -213,20 +213,22 @@ class: text-center
 
 # "You aren't always going to have a calculator in your pocket."
 
-<div class="opacity-50 mt-6">…that turned out to be a big lie.</div>
+...that turned out to be a big lie.
 
 <!--
 Yeah, that was a big lie. AI will be part of our work. It will help. So it would be strange to forbid the usage.
 -->
 
+
 ---
-layout: statement
-class: text-center
+layout: image-right
+image: /review.jpg
+class: flex flex-col justify-center
 ---
 
-# Guide the "how"
+# Guide the how
 
-<div class="opacity-60 text-xl mt-4">AI as a mentor beats AI as an answer machine.</div>
+AI as a mentor beats AI as an answer machine.
 
 * https://arxiv.org/abs/2309.13060
 * https://arxiv.org/abs/2603.24197
@@ -241,14 +243,13 @@ a teacher that is available for their questions 24/7.
 -->
 
 ---
-layout: image-right
-image: /review.jpg
-class: flex flex-col justify-center
+layout: statement
+class: text-center
 ---
 
 # Review their own work with AI
 
-<div class="opacity-60 mt-6">Just to prevent you are going to review garbage...</div>
+Just to prevent you are going to review garbage...
 
 <!--
 There is nothing worse than somebody giving you their work, and it is so terrible that you cannot imagine that they 
@@ -256,13 +257,14 @@ even tested it. It probably doesn't even compile. Their work quality will increa
 -->
 
 ---
-layout: statement
-class: text-center
+layout: image-left
+image: /enthusiasm.jpg
+class: flex flex-col justify-center
 ---
 
-# Use their enthousiasm
+# Use their enthusiasm
 
-<div class="opacity-60 text-xl mt-4">Offload the boring stuff to AI.</div>
+Offload the boring stuff to AI.
 
 <!--
 When you have a hobby project, there are certain parts you might enjoy, while you also need the boring stuff.
