@@ -21,7 +21,7 @@ class: text-center
 
 <!--
 It is not a hype that will blow over. It is becoming part of how we work every day.
-That is exactly why we need to be think about how Junior Engineers learn alongside it.
+That is exactly why we need to think about how Junior Engineers learn alongside it.
 -->
 
 ---
@@ -42,7 +42,7 @@ class: flex flex-col justify-center
 </v-clicks>
 
 <!--
-This is to see what kind of audience we have. I am targeting Senior+ Engineers for which guiding Junior Engineers is 
+This is to see what kind of audience we have. I am targeting Senior+ Engineers for whom guiding Junior Engineers is 
 part of their work. If they do this regularly, they will connect more with the content.
 -->
 
@@ -313,7 +313,3 @@ class: text-center
   <div class="w-56 h-56 rounded" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
 </div>
 
-<!--
-Save the pasted QR image as public/qr.png, and replace "your-published-link"
-with the real URL once the slides are published.
--->
