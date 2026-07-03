@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: geist
 colorSchema: dark
 title: How To Guide Junior Engineers In The Age Of AI
 class: text-center
