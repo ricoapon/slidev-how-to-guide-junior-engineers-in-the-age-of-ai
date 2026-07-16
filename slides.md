@@ -1,14 +1,14 @@
 ---
 theme: geist
 colorSchema: dark
-title: How To Guide Junior Engineers In The Age Of AI
+title: How To Guide Engineers In The Age Of AI
 class: text-center
 transition: slide-left
 layout: cover
 background: /cover.jpg
 ---
 
-# How To Guide Junior Engineers In The Age Of AI
+# How To Guide Engineers In The Age Of AI
 
 ---
 layout: statement
@@ -17,33 +17,11 @@ class: text-center
 
 <div class="uppercase tracking-widest text-sm">Why talk about this at all?</div>
 
-# AI is here to stay
+# AI changed education
 
 <!--
-It is not a hype that will blow over. It is becoming part of how we work every day.
-That is exactly why we need to think about how Junior Engineers learn alongside it.
--->
-
----
-layout: image-right
-image: /audience.jpg
-class: flex flex-col justify-center
----
-
-# Audience
-
-<v-clicks>
-
-- Who guides Junior Engineers as part of their work?
-- Who does this **4 hours or more** a week?
-- Who has **10 years or more** of experience?
-- Who uses AI daily?
-
-</v-clicks>
-
-<!--
-This is to see what kind of audience we have. I am targeting Senior+ Engineers for whom guiding Junior Engineers is 
-part of their work. If they do this regularly, they will connect more with the content.
+AI doesn't only change work, it also changes the entire education system. Schools already have problems with this. 
+In general, it has changed how we learn. So this also has an impact on how we guide other engineers.
 -->
 
 ---
@@ -62,8 +40,8 @@ class: flex flex-col justify-center
 </div>
 
 <!--
-Main thing to highlight is that I have teaching experience (educational minor + giving courses at Keylane). I guide and
-mentor many Engineers of different levels, and I am in general interested in these kind of topics. I think about them,
+Main thing to highlight is that I have teaching experience (educational minor + giving courses at Keylane). I guide many
+Engineers of different levels, and I am in general interested in these kind of topics. I think about them,
 talk about them, and have lots of experience. That makes me suited for talking about this topic.
 -->
 
@@ -73,9 +51,7 @@ image: /ai.jpg
 class: flex flex-col justify-center
 ---
 
-# My use of AI
-
-<div class="mb-10">LLMs and the tooling around them.</div>
+# Usage of the word "AI"
 
 <div class="flex flex-col gap-7">
   <div>
@@ -92,29 +68,99 @@ class: flex flex-col justify-center
 The word "AI" is used in such a broad concept, where the general meaning (by non-technical people) is often related to
 LLMs and the related tooling. I will use it as such as well. Not everybody might be on the same line or use the same 
 words, so good to clarify this. If certain words become mainstream, I should switch to these words.
+
+Also good to mention which tools I have the most experience with, just in case.
 -->
 
 ---
 layout: cover
-background: /msg1-understanding.jpg
+background: /code.jpg
+class: text-center
+---
+
+<div class="uppercase tracking-widest text-sm opacity-70 mb-3">Goal</div>
+
+# Help them become a better engineer
+
+---
+layout: cover
+background: /understanding.jpg
 class: text-center
 transition: fade
 ---
 
-<div class="uppercase tracking-widest text-sm opacity-70 mb-3">Message One</div>
-
 # Focus on understanding
+
+---
+layout: center
+class: text-center
+---
+
+# Bloom's Taxonomy
+
+<div class="flex gap-10" style="height: 22rem">
+
+  <!-- Pyramid -->
+  <div class="shrink-0 h-full" style="width: 10rem; clip-path: polygon(100% 0%, 100% 100%, 0% 100%)">
+    <div class="flex flex-col h-full gap-1">
+      <div class="flex-1" style="background: rgba(255,255,255,0.12)"></div>
+      <div class="flex-1" style="background: rgba(255,255,255,0.19)"></div>
+      <div class="flex-1" style="background: rgba(255,255,255,0.26)"></div>
+      <div class="flex-1" style="background: rgba(255,255,255,0.33)"></div>
+      <div class="flex-1" style="background: rgba(255,255,255,0.40)"></div>
+      <div class="flex-1" style="background: rgba(255,255,255,0.47)"></div>
+    </div>
+  </div>
+
+  <!-- Steps -->
+  <div class="flex flex-col gap-1 text-left">
+    <div class="flex-1 flex flex-col justify-center">
+      <div class="text-2xl font-bold leading-tight">Create</div>
+      <div>Design a new Spring Boot service from scratch</div>
+    </div>
+    <div class="flex-1 flex flex-col justify-center">
+      <div class="text-2xl font-bold leading-tight">Evaluate</div>
+      <div>Decide if logic belongs in the controller or the service</div>
+    </div>
+    <div class="flex-1 flex flex-col justify-center">
+      <div class="text-2xl font-bold leading-tight">Analyze</div>
+      <div>Trace a request through controller, service, repository</div>
+    </div>
+    <div class="flex-1 flex flex-col justify-center">
+      <div class="text-2xl font-bold leading-tight">Apply</div>
+      <div>Build a REST endpoint backed by a repository</div>
+    </div>
+    <div class="flex-1 flex flex-col justify-center">
+      <div class="text-2xl font-bold leading-tight">Understand</div>
+      <div>Explain how Spring injects a @Service bean</div>
+    </div>
+    <div class="flex-1 flex flex-col justify-center">
+      <div class="text-2xl font-bold leading-tight">Remember</div>
+      <div>Recall what @RestController and @Autowired do</div>
+    </div>
+  </div>
+</div>
+
+<!--
+Understanding is one of 6 steps. It is crucial that you can only apply something that you understood. Sure, you can 
+often do something without understanding it (following a manual for example). But in general, quality will be higher 
+(and it will also feel better) if you understand what you are doing.
+-->
 
 ---
 layout: statement
 class: text-center
 ---
 
-# Result &ne; understanding
+# Apply &ne; understanding
+
+<div class="mt-6 text-2xl opacity-70">So how do you check?</div>
 
 <!--
-Result was never equal to understanding, but in some cases it was a good indication. If somebody programmed a 
-feature, then it is pretty clear they understood the design and how to implement the feature. Good enough.
+Bloom's Taxonomy showed that you need to understand something to apply it. But nowadays, seeing it applied is not a 
+good indication anymore for understanding. Result was never equal to understanding, but in some cases it was a good 
+indication. If somebody programmed a  feature, then it is pretty clear they understood the design and how to 
+implement the feature. Good enough.
 
 These days, it could have been the result of a prompt, which could be generated without any understanding.
 -->
@@ -140,120 +186,88 @@ Note: even if they copied it from AI, they might still understand.
 -->
 
 ---
-layout: cover
-background: /msg2-history.jpg
+layout: center
 class: text-center
-transition: fade
 ---
-
-<div class="uppercase tracking-widest text-sm opacity-70 mb-3">Message Two</div>
 
 # Review chat history
 
----
-layout: statement
-class: text-center
----
-
-# Share it in a PR
-
-<!--
-It is in general very interesting to look at their chat history. Might be confronting for them to share and it might 
-feel to them as if they are being judged. It can really help though.
--->
-
----
-layout: image-left
-image: /how.jpg
-class: flex flex-col justify-center
----
-
-# How?
-
-<div class="flex flex-col gap-5 mt-4">
-  <div><span class="font-semibold">ChatGPT</span><div class="opacity-60 text-sm">Projects share everything</div></div>
-  <div><span class="font-semibold">Claude</span><div class="opacity-60 text-sm">Share each chat separately</div></div>
-  <div><span class="font-semibold">Codex / Claude Code</span><div class="opacity-60 text-sm">Export JSONL files</div></div>
+<div class="mt-10 flex justify-center gap-12">
+  <div class="px-5 py-4 text-xl rounded-2xl" style="background: rgba(255,255,255,0.20)">Fix it. Make no mistakes.</div>
+  <div class="px-5 py-4 text-xl rounded-2xl" style="background: rgba(255,255,255,0.20)">Help me understand how this works.</div>
 </div>
 
 <!--
-I think (or hope) that this will improve in the future. If we want to learn from each others prompts, then we will 
-want such export functionalities.
--->
+I think this is THE best way to see if they understood a topic. Their chat history shows you HOW they use AI: are they 
+outsourcing the thinking ("fix it, make no mistakes") or using it to learn ("help me understand how this works")?
 
----
-layout: statement
-class: text-center
----
+They might be scared to share it though, because it is so personal. Sharing is sometimes technically also a bit more 
+difficult if it is split up in different chats or when using a desktop app. Figure out a way together. It is new 
+technology and everyone does it differently. You might learn something from it too!
 
-# You can learn something too
-
-Go in with an open mind.
-
-<!--
-It is new technology and everyone does it differently. Go into it with an open mind. You might learn something from 
-the Junior Engineer in this aspect.
+This "how" is exactly what the next part is about.
 -->
 
 ---
 layout: cover
-background: /msg3-promote.jpg
+background: /how.jpg
 class: text-center
 transition: fade
 ---
 
-<div class="uppercase tracking-widest text-sm opacity-70 mb-3">Message Three</div>
-
-# Promote the use of AI
+# Guide <u>how</u> they use AI
 
 ---
-layout: statement
+layout: center
 class: text-center
 ---
 
-# "You aren't always going to have a calculator in your pocket."
+# What the research shows
 
-...that turned out to be a big lie.
+<div class="mx-auto mt-8 flex flex-col gap-3" style="width: 42rem">
+
+  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="background: rgba(74,222,128,0.13); border: 1px solid rgba(74,222,128,0.45)">
+    <div>
+      <div class="text-2xl font-bold">AI as a mentor</div>
+      <div class="opacity-70">"Help me understand how this works."</div>
+    </div>
+    <div class="flex items-center gap-2 uppercase tracking-widest text-xs opacity-80"><div class="i-carbon-arrow-up" /> Better understanding</div>
+  </div>
+
+  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="border: 1px dashed rgba(255,255,255,0.35)">
+    <div>
+      <div class="text-2xl font-bold">No AI at all</div>
+      <div class="opacity-70">The baseline</div>
+    </div>
+    <div class="uppercase tracking-widest text-xs opacity-50">Baseline</div>
+  </div>
+
+  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="background: rgba(248,113,113,0.13); border: 1px solid rgba(248,113,113,0.45)">
+    <div>
+      <div class="text-2xl font-bold">AI as an answer machine</div>
+      <div class="opacity-70">"Fix it. Make no mistakes."</div>
+    </div>
+    <div class="flex items-center gap-2 uppercase tracking-widest text-xs opacity-80"><div class="i-carbon-arrow-down" /> Worse understanding</div>
+  </div>
+
+</div>
+
+<div class="mt-10 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+  <a href="https://arxiv.org/abs/2309.13060" class="underline">arXiv 2309.13060</a>
+  <a href="https://arxiv.org/abs/2603.24197" class="underline">arXiv 2603.24197</a>
+  <a href="https://arxiv.org/abs/2410.03017" class="underline">arXiv 2410.03017</a>
+  <a href="https://arxiv.org/abs/2506.08872" class="underline">arXiv 2506.08872</a>
+  <a href="https://www.mdpi.com/2075-4698/15/1/6" class="underline">MDPI Societies 2025</a>
+</div>
 
 <!--
-Yeah, that was a big lie. AI will be part of our work. It will help. So it would be strange to forbid the usage.
--->
-
-
----
-layout: image-right
-image: /review.jpg
-class: flex flex-col justify-center
----
-
-# Guide the how
-
-AI as a mentor beats AI as an answer machine.
-
-* https://arxiv.org/abs/2309.13060
-* https://arxiv.org/abs/2603.24197
-* https://arxiv.org/abs/2410.03017
-
-<!--
-Using AI as a teacher/mentor will make Engineers sooo much better than Engineers that use it as an answer machine. 
+Using AI as a teacher will make Engineers sooo much better than Engineers that use it as an answer machine. 
 Schools have already figured this out.
+
+The key point: using it as an answer machine is worse than not using AI at all. So careful use is needed.
 
 This goes back to "Focus on understanding". If they use AI to improve their understanding, then they basically have 
 a teacher that is available for their questions 24/7.
--->
-
----
-layout: statement
-class: text-center
----
-
-# Review their own work with AI
-
-Just to prevent you are going to review garbage...
-
-<!--
-There is nothing worse than somebody giving you their work, and it is so terrible that you cannot imagine that they 
-even tested it. It probably doesn't even compile. Their work quality will increase with AI. 
 -->
 
 ---
@@ -264,12 +278,14 @@ class: flex flex-col justify-center
 
 # Use their enthusiasm
 
-Offload the boring stuff to AI.
+Vibe code boring stuff with AI on side projects.
 
 <!--
 When you have a hobby project, there are certain parts you might enjoy, while you also need the boring stuff.
 For example: creating the backend with Java could be fun, but Thymeleaf frontend is boring. Just let AI do the
 boring stuff! It will make it far more enjoyable to create hobby projects this way.
+
+Ask question: who hates doing frontend development? Hopefully a lot! 
 -->
 
 ---
@@ -286,30 +302,19 @@ class: text-center
   </div>
   <div class="flex items-baseline gap-5">
     <span class="text-4xl font-bold w-10" style="color: var(--geist-foreground)">2</span>
-    <span class="text-2xl">Review chat history</span>
-  </div>
-  <div class="flex items-baseline gap-5">
-    <span class="text-4xl font-bold w-10" style="color: var(--geist-foreground)">3</span>
-    <span class="text-2xl">Promote the use of AI</span>
+    <span class="text-2xl">Guide how to use AI</span>
   </div>
 </div>
 
 ---
 layout: cover
-background: /questions.jpg
+background: /end.jpg
 class: text-center
 ---
 
-# Questions?
+# The end
 
----
-layout: center
-class: text-center
----
-
-# Get the slides
-
-<div class="mx-auto w-max pt-5">
-  <div class="w-56 h-56 rounded" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
+<div class="mt-2 mx-auto w-max flex flex-col items-center gap-3">
+  <div class="w-52 h-52 rounded-lg" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
+  <a href="https://github.com/ricoapon/slidev-guiding-engineers-ai" class="underline">github.com/ricoapon/slidev-guiding-engineers-ai</a>
 </div>
-

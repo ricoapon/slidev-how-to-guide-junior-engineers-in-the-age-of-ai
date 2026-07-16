@@ -1,12 +1,21 @@
-# How To Guide Junior Engineers In The Age Of AI
+## Did They Learn It Or Did AI? Guiding Engineers in the Age of AI
 
-This is the slide deck, made using [Slidev](https://sli.dev/), for my presentation.
+AI has fundamentally changed how engineers learn. Previous generations leaned on books, colleagues, Stack Overflow and
+courses. Today's engineers have an assistant that generates explanations, designs and working code in an instant. But it
+breaks something we used to rely on: a pull request no longer means the engineer understands it. How do you give
+feedback on work that's AI-generated? How do you encourage AI without letting it replace learning? In this talk I'll
+make the case for reviewing not just the code, but how the engineer used AI to produce it. I'll show the difference
+between using AI as an answer machine ("fix it, make no mistakes") and as a mentor ("help me understand how this
+works"). The research is clear: using it as an answer machine makes engineers worse than using no AI at all. You'll
+leave with a new way to look at your engineers' work and practical ideas for helping them use AI to learn.
 
-Links to studies mentioned in the slides:
+## Info
 
-* https://arxiv.org/abs/2309.13060
-* https://arxiv.org/abs/2603.24197
-* https://arxiv.org/abs/2410.03017
+This is the slide deck, made using [Slidev](https://sli.dev/), for my presentation that takes about 15 minutes.
+
+## Present
+
+Either go to http://slidev-juniorengineers.ricoapon.nl/ or run `npm run dev`.
 
 ## Present offline
 
