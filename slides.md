@@ -316,5 +316,5 @@ class: text-center
 
 <div class="mt-2 mx-auto w-max flex flex-col items-center gap-3">
   <div class="w-52 h-52 rounded-lg" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
-  <a href="https://github.com/ricoapon/slidev-guiding-engineers-ai" class="underline">github.com/ricoapon/slidev-guiding-engineers-ai</a>
+  <div class="px-4 py-2 rounded-full" style="background: rgba(0,0,0,0.55)">github.com/ricoapon/slidev-guiding-engineers-ai</div>
 </div>
