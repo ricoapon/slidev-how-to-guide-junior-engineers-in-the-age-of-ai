@@ -1,8 +1,9 @@
 ---
-theme: geist
+theme: '@ricoapon/slidev-theme-narrative'
 colorSchema: dark
+themeConfig:
+  accent: '#30A46C'
 title: How To Guide Engineers In The Age Of AI
-class: text-center
 transition: slide-left
 layout: cover
 background: /cover.jpg
@@ -12,10 +13,9 @@ background: /cover.jpg
 
 ---
 layout: statement
-class: text-center
 ---
 
-<div class="uppercase tracking-widest text-sm">Why talk about this at all?</div>
+<Kicker>Why talk about this at all?</Kicker>
 
 # AI changed education
 
@@ -27,13 +27,12 @@ In general, it has changed how we learn. So this also has an impact on how we gu
 ---
 layout: image-left
 image: /me.jpg
-class: flex flex-col justify-center
 ---
 
 # Who am I?
 
 <div class="flex flex-col gap-4 mt-4 text-xl">
-  <div class="flex items-center gap-3"><div class="i-carbon-book" /> Epic fantasy reader <span class="opacity-50 text-base">(Brandon Sanderson!)</span></div>
+  <div class="flex items-center gap-3"><div class="i-carbon-book" /> Epic fantasy reader <span class="muted text-base">(Brandon Sanderson!)</span></div>
   <div class="flex items-center gap-3"><div class="i-carbon-music" /> Salsa &amp; bachata dancer</div>
   <div class="flex items-center gap-3"><div class="i-carbon-education" /> Teacher</div>
   <div class="flex items-center gap-3"><div class="i-carbon-user-certification" /> Lead Engineer at Keylane</div>
@@ -48,21 +47,17 @@ talk about them, and have lots of experience. That makes me suited for talking a
 ---
 layout: image-right
 image: /ai.jpg
-class: flex flex-col justify-center
 ---
 
 # Usage of the word "AI"
 
-<div class="flex flex-col gap-7">
-  <div>
-    <div class="uppercase tracking-widest text-sm opacity-50 mb-1">Chat</div>
-    <div class="text-2xl">ChatGPT · Claude</div>
-  </div>
-  <div>
-    <div class="uppercase tracking-widest text-sm opacity-50 mb-1">In the editor</div>
-    <div class="text-2xl">Codex · Claude Code</div>
-  </div>
-</div>
+<Kicker>Chat</Kicker>
+
+## ChatGPT · Claude
+
+<Kicker class="mt-8">In the editor</Kicker>
+
+## Codex · Claude Code
 
 <!--
 The word "AI" is used in such a broad concept, where the general meaning (by non-technical people) is often related to
@@ -75,17 +70,15 @@ Also good to mention which tools I have the most experience with, just in case.
 ---
 layout: cover
 background: /code.jpg
-class: text-center
 ---
 
-<div class="uppercase tracking-widest text-sm opacity-70 mb-3">Goal</div>
+<Kicker>Goal</Kicker>
 
-# Help them become a better engineer
+# Help them become a <u>better</u> engineer
 
 ---
 layout: cover
 background: /understanding.jpg
-class: text-center
 transition: fade
 ---
 
@@ -93,7 +86,6 @@ transition: fade
 
 ---
 layout: center
-class: text-center
 ---
 
 # Bloom's Taxonomy
@@ -103,12 +95,12 @@ class: text-center
   <!-- Pyramid -->
   <div class="shrink-0 h-full" style="width: 10rem; clip-path: polygon(100% 0%, 100% 100%, 0% 100%)">
     <div class="flex flex-col h-full gap-1">
-      <div class="flex-1" style="background: rgba(255,255,255,0.12)"></div>
-      <div class="flex-1" style="background: rgba(255,255,255,0.19)"></div>
-      <div class="flex-1" style="background: rgba(255,255,255,0.26)"></div>
-      <div class="flex-1" style="background: rgba(255,255,255,0.33)"></div>
-      <div class="flex-1" style="background: rgba(255,255,255,0.40)"></div>
-      <div class="flex-1" style="background: rgba(255,255,255,0.47)"></div>
+      <div class="flex-1" style="background: var(--text); opacity: 0.12"></div>
+      <div class="flex-1" style="background: var(--text); opacity: 0.19"></div>
+      <div class="flex-1" style="background: var(--text); opacity: 0.26"></div>
+      <div class="flex-1" style="background: var(--text); opacity: 0.33"></div>
+      <div class="flex-1" style="background: var(--accent)"></div>
+      <div class="flex-1" style="background: var(--text); opacity: 0.40"></div>
     </div>
   </div>
 
@@ -116,27 +108,27 @@ class: text-center
   <div class="flex flex-col gap-1 text-left">
     <div class="flex-1 flex flex-col justify-center">
       <div class="text-2xl font-bold leading-tight">Create</div>
-      <div>Design a new Spring Boot service from scratch</div>
+      <div class="muted">Design a new Spring Boot service from scratch</div>
     </div>
     <div class="flex-1 flex flex-col justify-center">
       <div class="text-2xl font-bold leading-tight">Evaluate</div>
-      <div>Decide if logic belongs in the controller or the service</div>
+      <div class="muted">Decide if logic belongs in the controller or the service</div>
     </div>
     <div class="flex-1 flex flex-col justify-center">
       <div class="text-2xl font-bold leading-tight">Analyze</div>
-      <div>Trace a request through controller, service, repository</div>
+      <div class="muted">Trace a request through controller, service, repository</div>
     </div>
     <div class="flex-1 flex flex-col justify-center">
       <div class="text-2xl font-bold leading-tight">Apply</div>
-      <div>Build a REST endpoint backed by a repository</div>
+      <div class="muted">Build a REST endpoint backed by a repository</div>
     </div>
     <div class="flex-1 flex flex-col justify-center">
-      <div class="text-2xl font-bold leading-tight">Understand</div>
-      <div>Explain how Spring injects a @Service bean</div>
+      <div class="text-2xl font-bold leading-tight" style="color: var(--accent)">Understand</div>
+      <div class="muted">Explain how Spring injects a @Service bean</div>
     </div>
     <div class="flex-1 flex flex-col justify-center">
       <div class="text-2xl font-bold leading-tight">Remember</div>
-      <div>Recall what @RestController and @Autowired do</div>
+      <div class="muted">Recall what @RestController and @Autowired do</div>
     </div>
   </div>
 </div>
@@ -149,12 +141,11 @@ often do something without understanding it (following a manual for example). Bu
 
 ---
 layout: statement
-class: text-center
 ---
 
 # Apply &ne; understanding
 
-<div class="mt-6 text-2xl opacity-70">So how do you check?</div>
+So how do you check?
 
 <!--
 Bloom's Taxonomy showed that you need to understand something to apply it. But nowadays, seeing it applied is not a 
@@ -168,7 +159,6 @@ These days, it could have been the result of a prompt, which could be generated 
 ---
 layout: image-right
 image: /talk.jpg
-class: flex flex-col justify-center
 ---
 
 # Talk to them
@@ -187,14 +177,13 @@ Note: even if they copied it from AI, they might still understand.
 
 ---
 layout: center
-class: text-center
 ---
 
 # Review chat history
 
 <div class="mt-10 flex justify-center gap-12">
-  <div class="px-5 py-4 text-xl rounded-2xl" style="background: rgba(255,255,255,0.20)">Fix it. Make no mistakes.</div>
-  <div class="px-5 py-4 text-xl rounded-2xl" style="background: rgba(255,255,255,0.20)">Help me understand how this works.</div>
+  <div class="px-5 py-4 text-xl rounded-2xl" style="border: 1px solid var(--hairline)">Fix it. Make no mistakes.</div>
+  <div class="px-5 py-4 text-xl rounded-2xl" style="border: 1px solid var(--hairline)">Help me understand how this works.</div>
 </div>
 
 <!--
@@ -211,7 +200,6 @@ This "how" is exactly what the next part is about.
 ---
 layout: cover
 background: /how.jpg
-class: text-center
 transition: fade
 ---
 
@@ -219,45 +207,45 @@ transition: fade
 
 ---
 layout: center
-class: text-center
 ---
 
 # What the research shows
 
 <div class="mx-auto mt-8 flex flex-col gap-3" style="width: 42rem">
 
-  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="background: rgba(74,222,128,0.13); border: 1px solid rgba(74,222,128,0.45)">
+  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1px solid var(--accent)">
     <div>
       <div class="text-2xl font-bold">AI as a mentor</div>
-      <div class="opacity-70">"Help me understand how this works."</div>
+      <div class="muted">"Help me understand how this works."</div>
     </div>
-    <div class="flex items-center gap-2 uppercase tracking-widest text-xs opacity-80"><div class="i-carbon-arrow-up" /> Better understanding</div>
+    <div class="flex items-center gap-2 uppercase tracking-widest text-xs" style="color: var(--accent)"><div class="i-carbon-arrow-up" /> Better understanding</div>
   </div>
 
-  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="border: 1px dashed rgba(255,255,255,0.35)">
+  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="border: 1px dashed var(--hairline)">
     <div>
       <div class="text-2xl font-bold">No AI at all</div>
-      <div class="opacity-70">The baseline</div>
+      <div class="muted">The baseline</div>
     </div>
-    <div class="uppercase tracking-widest text-xs opacity-50">Baseline</div>
+    <div class="uppercase tracking-widest text-xs muted">Baseline</div>
   </div>
 
-  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="background: rgba(248,113,113,0.13); border: 1px solid rgba(248,113,113,0.45)">
+  <div class="flex items-center justify-between px-6 py-4 rounded-xl text-left" style="background: rgba(248,113,113,
+0.13);  border: 1px solid rgba(248,113,113,0.45)">
     <div>
-      <div class="text-2xl font-bold">AI as an answer machine</div>
-      <div class="opacity-70">"Fix it. Make no mistakes."</div>
+      <div class="text-2xl font-bold muted">AI as an answer machine</div>
+      <div class="muted">"Fix it. Make no mistakes."</div>
     </div>
-    <div class="flex items-center gap-2 uppercase tracking-widest text-xs opacity-80"><div class="i-carbon-arrow-down" /> Worse understanding</div>
+    <div class="flex items-center gap-2 uppercase tracking-widest text-xs muted"><div class="i-carbon-arrow-down" /> Worse understanding</div>
   </div>
 
 </div>
 
-<div class="mt-10 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-  <a href="https://arxiv.org/abs/2309.13060" class="underline">arXiv 2309.13060</a>
-  <a href="https://arxiv.org/abs/2603.24197" class="underline">arXiv 2603.24197</a>
-  <a href="https://arxiv.org/abs/2410.03017" class="underline">arXiv 2410.03017</a>
-  <a href="https://arxiv.org/abs/2506.08872" class="underline">arXiv 2506.08872</a>
-  <a href="https://www.mdpi.com/2075-4698/15/1/6" class="underline">MDPI Societies 2025</a>
+<div class="citations mt-10 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+  <a href="https://arxiv.org/abs/2309.13060">arXiv 2309.13060</a>
+  <a href="https://arxiv.org/abs/2603.24197">arXiv 2603.24197</a>
+  <a href="https://arxiv.org/abs/2410.03017">arXiv 2410.03017</a>
+  <a href="https://arxiv.org/abs/2506.08872">arXiv 2506.08872</a>
+  <a href="https://www.mdpi.com/2075-4698/15/1/6">MDPI Societies 2025</a>
 </div>
 
 <!--
@@ -273,7 +261,6 @@ a teacher that is available for their questions 24/7.
 ---
 layout: image-left
 image: /enthusiasm.jpg
-class: flex flex-col justify-center
 ---
 
 # Use their enthusiasm
@@ -290,31 +277,21 @@ Ask question: who hates doing frontend development? Hopefully a lot!
 
 ---
 layout: center
-class: text-center
 ---
 
 # In summary
 
-<div class="mt-10 mx-auto w-max flex flex-col gap-5 text-left">
-  <div class="flex items-baseline gap-5">
-    <span class="text-4xl font-bold w-10" style="color: var(--geist-foreground)">1</span>
-    <span class="text-2xl">Focus on understanding</span>
-  </div>
-  <div class="flex items-baseline gap-5">
-    <span class="text-4xl font-bold w-10" style="color: var(--geist-foreground)">2</span>
-    <span class="text-2xl">Guide how to use AI</span>
-  </div>
-</div>
+1. Focus on understanding
+2. Guide how they use AI
 
 ---
 layout: cover
 background: /end.jpg
-class: text-center
 ---
 
 # The end
 
 <div class="mt-2 mx-auto w-max flex flex-col items-center gap-3">
   <div class="w-52 h-52 rounded-lg" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
-  <div class="px-4 py-2 rounded-full" style="background: rgba(0,0,0,0.55)">github.com/ricoapon/slidev-guiding-engineers-ai</div>
+  <div class="px-4 py-2 rounded-full" style="background: var(--scrim)">github.com/ricoapon/slidev-guiding-engineers-ai</div>
 </div>
