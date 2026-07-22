@@ -24,8 +24,6 @@ Lead Engineer at Keylane. Rico has a math and teacher degree. He loves to mentor
 ## Experience
 https://youtu.be/5wuXaP2rRZI
 
-(Verify this works)
-
 ## Change delivery every 7 minutes
 
 This was a tip from them. My idea was now telling a story for 45min. How can I change it up?
